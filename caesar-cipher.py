@@ -47,10 +47,11 @@ while should_condition:
         decrypt(text, shift)
     else:
         print("Invalid input")
-    restart = input("Press 'Y' if you want to continue or 'N' to exit").lower()
+    restart = input("Press 'Y' if you want to continue or 'N' to exit:\n").lower()
     if restart != "y":
         print("Thank You")
         should_condition = False
+
 
 
 

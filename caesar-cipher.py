@@ -48,8 +48,9 @@ while should_condition:
     else:
         print("Invalid input")
     restart = input("Press 'Y' if you want to continue or 'N' to exit").lower()
-    if restart != "Y":
+    if restart != "y":
         print("Thank You")
         should_condition = False
+
 
 

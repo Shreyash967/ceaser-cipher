@@ -39,7 +39,7 @@ print("""
 should_condition=True
 while should_condition:
     direction = input("Type Encode To encrypt The Msg or type Decode To decrypt the received msg\n :").lower()
-    text = input("Enter Your message (Don't Give space in between) \n :").lower()
+    text = input("Enter Your message \n :").lower()
     shift = int(input("Enter your shift\n :"))
     if direction == "encode":
         encrypt(text, shift)
@@ -51,5 +51,6 @@ while should_condition:
     if restart != "y":
         print("Thank You")
         should_condition = False
+
 
 
